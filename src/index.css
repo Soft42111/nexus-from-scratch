@@ -179,3 +179,18 @@ body {
 .prevent-layout-shift {
   contain: layout style;
 }
+/* Default cursor for entire site */
+body {
+  cursor: url('/cursor-fixed.png') 16 16, auto;
+}
+
+/* Pointer for clickable elements */
+a,
+button,
+input[type="button"],
+input[type="submit"],
+label,
+select,
+[role="button"] {
+  cursor: url('/pointer1.png') 16 16, pointer;
+}
