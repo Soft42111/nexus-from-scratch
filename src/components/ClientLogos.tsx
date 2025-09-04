@@ -14,7 +14,7 @@ const ClientLogos = () => {
     { name: 'Boinkers', twitter: 'https://x.com/boinkersio', logo: '/lovable-uploads/1206fdc2-1e81-4d6a-9c29-98a4ff7b70fd.png' },
     { name: 'Aethir', twitter: 'https://x.com/aethircloud', logo: '/lovable-uploads/c6af1549-7f0f-4823-8ac2-15ee799830d9.png' },
   ];
-
+      console.log("Script Loaded Successfully!");
   return (
     <div 
       ref={elementRef}
